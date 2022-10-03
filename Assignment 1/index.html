@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jaspreet Singh" />
+    <meta name="description" content="Horizontal and Vertical Image" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+
+    <title>Responsive images</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <picture>
+      <source srcset="img/Horizontal.jpeg" media="(min-width:700px)" >
+      <source srcset="img/Vertical.jpeg" media="(max-width:699px)" >
+      <img src="img/vertical.jpeg" alt="vertical">
+    </picture>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
