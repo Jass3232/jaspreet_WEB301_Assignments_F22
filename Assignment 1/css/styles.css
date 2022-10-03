@@ -1,0 +1,35 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+a {
+  display: none;
+}
+img{
+  width: 100%;
+  
+
+}
+
+@media only screen and (min-width: 700px) {
+  html, body{
+      font-size: 12px;
+  }
+
+  p {
+      max-width: 650px;
+      margin: 0px auto;
+  }
+
+  a{
+      display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  p {
+      max-width: 1000px;
+  }
+}
