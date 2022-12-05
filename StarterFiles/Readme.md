@@ -1,5 +1,2 @@
-Use [this link](https://www.webmobilefirst.com/en/devices/) to find your mobile devices resolution. Note your phone and its resolution below.
-
-Your name: Jaspreet Singh
-Your phone model: Iphone 13
-Resolution: 390×844 
+# jaspreet_WEB301_Assignments_F22-Assignment-3
+I used carousel component for sliding images  for making it attractive  and in the footer i added card which will be used to go github link as well as we can scroll up from footer
