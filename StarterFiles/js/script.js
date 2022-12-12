@@ -18,10 +18,18 @@
         
 
         // then open it by using the show() method
+  $("#myModal").toggle();
+        $(".close").on('click', function (){
+          $("#myModal").hide();
+        });
+        
 
       }
-
-      
+      else {
+        /* Add alert if invalid submission */
+          $('.alert').show();       
+        console.log("nah");
+      }
       form.classList.add('was-validated')
     }, false)
   })
