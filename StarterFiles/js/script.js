@@ -19,7 +19,7 @@
 
         // then open it by using the show() method
   $("#myModal").toggle();
-        $(".close").on('click', function (){
+        $("#close").on('click', function (){
           $("#myModal").hide();
         });        
 
