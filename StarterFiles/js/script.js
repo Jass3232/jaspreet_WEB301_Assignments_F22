@@ -21,8 +21,7 @@
   $("#myModal").toggle();
         $(".close").on('click', function (){
           $("#myModal").hide();
-        });
-        
+        });        
 
       }
       else {
